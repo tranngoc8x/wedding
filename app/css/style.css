@@ -679,7 +679,7 @@ img {
 }
 .form select {
   font-style: normal;
-  background: url(../images/select-icon.png) no-repeat right center;
+  background: url(/images/select-icon.png) no-repeat right center;
   display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -724,7 +724,7 @@ img {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/breadcrumb.jpg) no-repeat center top/cover;
+  background: url(/images/breadcrumb.jpg) no-repeat center top/cover;
   min-height: 150px;
   position: relative;
   display: flex;
@@ -765,7 +765,7 @@ img {
 }
 
 .wpo-page-title {
-  background: url(../images/page-title.jpg) no-repeat center top/cover;
+  background: url(/images/page-title.jpg) no-repeat center top/cover;
   min-height: 300px;
   position: relative;
   display: flex;
@@ -3118,7 +3118,7 @@ img {
   height: 100%;
   content: "";
   width: 60px;
-  background: url(../images/slider/shape.png) no-repeat center center;
+  background: url(/images/slider/shape.png) no-repeat center center;
 }
 @media (max-width: 575px) {
   .wpo-hero-slider .slide-inner .slide-content:before,
@@ -3146,7 +3146,7 @@ img {
   height: 100%;
   content: "";
   width: 60px;
-  background: url(../images/slider/shape2.png) no-repeat center center;
+  background: url(/images/slider/shape2.png) no-repeat center center;
 }
 @media (max-width: 575px) {
   .wpo-hero-slider .slide-inner .slide-content:after,
@@ -4126,7 +4126,7 @@ img {
 .wpo-hero-style-3 .wpo-wedding-date #clock > div {
   width: 180px;
   height: 163px;
-  background: url("../images/clock-bg2.png") center center/cover no-repeat local;
+  background: url("/images/clock-bg2.png") center center/cover no-repeat local;
   float: left;
   display: table;
 }
@@ -4160,7 +4160,7 @@ img {
 .static-hero-s4 {
   height: 100vh;
   min-height: 920px;
-  background: url(../images/slider/slide-10.jpg) no-repeat center center;
+  background: url(/images/slider/slide-10.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -4194,7 +4194,7 @@ img {
   padding: 20px;
   position: relative;
   margin-bottom: 40px;
-  background: url(../images/slider/frame.png) no-repeat center center;
+  background: url(/images/slider/frame.png) no-repeat center center;
   width: 530px;
   height: 730px;
   display: flex;
@@ -5504,7 +5504,7 @@ static-hero-s4
 .wpo-cta-section-s2,
 .wpo-cta-section-s3 {
   padding: 145px 0;
-  background: url(../images/cta/bg.jpg) no-repeat center center;
+  background: url(/images/cta/bg.jpg) no-repeat center center;
   position: relative;
   z-index: 1;
 }
@@ -5662,7 +5662,7 @@ static-hero-s4
 
 /* 3.11 wpo-banner-section */
 .wpo-banner-section {
-  background: url(../images/banner.jpg) no-repeat center center;
+  background: url(/images/banner.jpg) no-repeat center center;
   height: 280px;
   display: flex;
   justify-content: center;
@@ -6191,7 +6191,7 @@ static-hero-s4
 
 /* 5.5 wpo-cta-section-s2 */
 .wpo-cta-section-s2 {
-  background: url(../images/cta/bg-2.jpg) no-repeat center center;
+  background: url(/images/cta/bg-2.jpg) no-repeat center center;
 }
 
 /* 5.6 wpo-blog-section-s2 */
@@ -6235,7 +6235,7 @@ static-hero-s4
 .wpo-wedding-date #clock > div {
   width: 180px;
   height: 163px;
-  background: url("../images/clock-bg.png") center center/cover no-repeat local;
+  background: url("/images/clock-bg.png") center center/cover no-repeat local;
   float: left;
   display: table;
 }
@@ -6856,7 +6856,7 @@ static-hero-s4
 
 /* 6.6 wpo-cta-section-s3 */
 .wpo-cta-section-s3 {
-  background: url(../images/cta/bg-3.jpg) no-repeat center center;
+  background: url(/images/cta/bg-3.jpg) no-repeat center center;
 }
 .wpo-cta-section-s3 .wpo-cta-item h2 {
   margin-bottom: 10px;
@@ -7137,7 +7137,7 @@ static-hero-s4
 8.4 wpo-offer-banner-section
 --------------------------------------------------------------*/
 .wpo-offer-banner-section {
-  background: url(../images/offer.jpg) no-repeat center center;
+  background: url(/images/offer.jpg) no-repeat center center;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -8239,7 +8239,7 @@ static-hero-s4
   -o-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
 .wpo-checkout-area .billing-adress {
@@ -10063,11 +10063,11 @@ static-hero-s4
   -o-appearance: none;
   appearance: none;
   -moz-appearance: none;
-  background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
 .wpo-contact-pg-section form select:focus {
-  background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
+  background: transparent url(/images/select-icon2.png) no-repeat calc(100% - 15px) center;
 }
 .wpo-contact-pg-section form .submit-area {
   text-align: center;
