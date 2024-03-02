@@ -20,7 +20,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="/images/portfolio/7.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="/images/portfolio/7.jpg" alt className="img img-responsive"/>
+                                        <img src="/images/portfolio/7.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>
@@ -31,7 +31,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="images/portfolio/8.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/8.jpg" alt className="img img-responsive"/>
+                                        <img src="images/portfolio/8.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>
@@ -42,7 +42,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="images/portfolio/9.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/9.jpg" alt className="img img-responsive"/>
+                                        <img src="images/portfolio/9.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>
@@ -53,7 +53,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="images/portfolio/10.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/10.jpg" alt className="img img-responsive"/>
+                                        <img src="images/portfolio/10.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>
@@ -64,7 +64,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="images/portfolio/11.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/11.jpg" alt className="img img-responsive"/>
+                                        <img src="images/portfolio/11.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>
@@ -75,7 +75,7 @@ export default function () {
                                 <div className="img-holder">
                                     <a href="images/portfolio/12.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/12.jpg" alt className="img img-responsive"/>
+                                        <img src="images/portfolio/12.jpg" alt='' className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>

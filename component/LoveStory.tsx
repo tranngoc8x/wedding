@@ -20,7 +20,7 @@ export default function ({timeLines}) {
                         {timeLines.map((timeLine, index) => (
 
                             index % 2 === 0 ?
-                                <div className="row">
+                                <div className="row" key={index}>
                                     <div className="col col-lg-6 col-12">
                                         <div className="story-text right-align-text">
                                             <h3>{timeLine.title}</h3>
@@ -30,17 +30,17 @@ export default function ({timeLines}) {
                                     </div>
                                     <div className="col col-lg-6 col-12">
                                         <div className="img-holder">
-                                            <img src={timeLine.image} alt className="img img-responsive"/>
+                                            <img src={timeLine.image} alt='' className="img img-responsive"/>
                                             <div className="story-shape-img">
                                                 <img src="/images/story/shape.png" alt=""/>
                                             </div>
                                         </div>
                                     </div>
                                 </div> :
-                                <div className="row">
+                                <div className="row" key={index}>
                                     <div className="col col-lg-6 col-12">
                                         <div className="img-holder right-align-text left-site">
-                                            <img src={timeLine.image} alt className="img img-responsive"/>
+                                            <img src={timeLine.image} alt='' className="img img-responsive"/>
                                             <div className="story-shape-img">
                                                 <img src="/images/story/shape.png" alt=""/>
                                             </div>
