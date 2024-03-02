@@ -55,18 +55,26 @@ export default async function Home() {
 
             {/*<Loading />*/}
             <HeroBanner data={data}/>
-            <section className="wpo-wedding-date section-padding">
-                <h2 className="hidden">some</h2>
-                <div className="container">
-                    <div className="row">
-                        <div className="col col-xs-12">
-                            <div className="clock-grids">
-                                <div id="clock"></div>
+            <section className="elementor-section elementor-top-section elementor-element elementor-element-2a49366 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2a49366" data-element_type="section">
+                <div className="elementor-container elementor-column-gap-no">
+                    <div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9cb3c4c" data-id="9cb3c4c" data-element_type="column">
+                        <div className="elementor-widget-wrap elementor-element-populated">
+                            <div className="elementor-element elementor-element-0551ede elementor-widget elementor-widget-wpo-loveme_coundown_hero" data-id="0551ede" data-element_type="widget">
+                                <div className="elementor-widget-container">
+                                    <div className="wpo-coundown wpo-wedding-date">
+                                        <div className="container">
+                                            <div className="clock-grids">
+                                                <div id="clock" data-date="2024/11/14 "><div className="box"><div><div className="time">08</div><span>Month</span></div></div><div className="box"><div><div className="time">256</div> <span>Days</span></div></div><div className="box"><div><div className="time">04</div> <span>Hours</span></div></div><div className="box"><div><div className="time">42</div> <span>Mins</span> </div></div><div className="box"><div><div className="time">54</div> <span>Secs</span> </div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
             <HeroSection data={data}/>
 
             <section className="wpo-video-section-s2">

@@ -18,9 +18,9 @@ export default function () {
                         <div className="portfolio-grids gallery-container clearfix">
                             <div className="grid">
                                 <div className="img-holder">
-                                    <a href="images/portfolio/7.jpg" className="fancybox"
+                                    <a href="/images/portfolio/7.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
-                                        <img src="images/portfolio/7.jpg" alt className="img img-responsive"/>
+                                        <img src="/images/portfolio/7.jpg" alt className="img img-responsive"/>
                                         <div className="hover-content">
                                             <i className="ti-plus"></i>
                                         </div>

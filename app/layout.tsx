@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import 'swiper/css';
 import './css/themify-icons.css';
-import './css/font-awesome.min.css';
 import './css/flaticon.css';
 import './css/bootstrap.min.css';
 import './css/style.css';

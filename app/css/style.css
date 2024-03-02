@@ -220,7 +220,7 @@ img {
 }
 @media (max-width: 767px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 }
 
@@ -6224,7 +6224,12 @@ static-hero-s4
 --------------------------------------------------------------*/
 .wpo-wedding-date {
   text-align: center;
-  padding-bottom: 0;
+  padding: 110px 0px 80px 0px;
+}
+@media (max-width: 768px) {
+  .wpo-wedding-date {
+    padding: 50px 0px 60px 0px;
+  }
 }
 .wpo-wedding-date #clock {
   overflow: hidden;
@@ -6255,7 +6260,7 @@ static-hero-s4
   .wpo-wedding-date #clock > div {
     width: calc(50% - 20px);
     margin: 10px;
-    padding-bottom: 15px;
+    padding: 20px 0px 20px 0px;
     height: 110px;
   }
   .wpo-wedding-date #clock > div:last-child {
@@ -6281,7 +6286,7 @@ static-hero-s4
   }
 }
 .wpo-wedding-date #clock .time {
-  font-family: "CookiesAndMilk";
+  font-family: "Famous";
   font-size: 54px;
   font-size: 3.6rem;
   line-height: 1em;
