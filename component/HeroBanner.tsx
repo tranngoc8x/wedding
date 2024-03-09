@@ -1,4 +1,4 @@
-export default function HeroBanner({data}) {
+export default function HeroBanner({data}: {data: any}) {
     return  <section className="wpo-hero-slider wpo-hero-slider-s2">
         <div className="swiper-container">
             <div className="swiper-wrapper">

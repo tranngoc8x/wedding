@@ -1,4 +1,4 @@
-export default function HeroSection({data}) {
+export default function HeroSection({data}: {data: any}) {
     return <section className="couple-section section-padding" id="couple">
         <div className="container">
             <div className="row align-items-center">

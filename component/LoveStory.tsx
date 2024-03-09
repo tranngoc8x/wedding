@@ -1,4 +1,4 @@
-export default function ({timeLines}) {
+export default function ({timeLines}: {timeLines: any[]}) {
     return <section className="story-section section-padding" id="story">
         <div className="container">
             <div className="row">
