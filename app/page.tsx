@@ -13,13 +13,13 @@ async function getData() {
       fullName: "Trần Ngọc Thắng",
       name: "Thắng",
       about:
-        "À thì mình đẹp trai, học giỏi nhiều năm, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
+        "À mình đẹp trai, học giỏi nhiều năm, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
     },
     BRIDE: {
       fullName: "Phan Ngọc Huyền",
       name: "Huyền",
       about:
-        "Đây cũng xinh gái, đa tài, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
+        "Cũng xinh gái, đa tài, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
     },
     weddingDate: "We Are Getting Married Apr 28,2024",
     weddingCountdown: new Date("2024-04-28").getTime(),
@@ -55,7 +55,7 @@ async function getData() {
     ],
   };
 }
-export default async function Home() {
+export default async function HomePage() {
   const data = await getData();
   return (
     <div className="page-wrapper">
