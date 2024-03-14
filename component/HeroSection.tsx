@@ -6,7 +6,7 @@ export default function HeroSection({data}: {data: any}) {
                     <div className="couple-area clearfix">
                         <div className="text-grid bride">
                             <div className="couple-img">
-                                <img src="/images/couple/2.jpg" alt="" />
+                                <img src={data.GROOM.avatar} alt="" />
                             </div>
                             <h3>{data.GROOM.fullName}</h3>
                             <p>{data.GROOM.about} </p>
@@ -18,7 +18,7 @@ export default function HeroSection({data}: {data: any}) {
                         </div>
                         <div className="text-grid groom">
                             <div className="couple-img">
-                                <img src="/images/couple/3.jpg" alt="" />
+                                <img src={data.BRIDE.avatar} alt=""/>
                             </div>
                             <h3>{data.BRIDE.fullName}</h3>
                             <p>{data.BRIDE.about} </p>

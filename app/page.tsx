@@ -12,11 +12,13 @@ async function getData() {
     GROOM: {
       fullName: "Trần Ngọc Thắng",
       name: "Thắng",
+      avatar: "/images/couple/2.jpeg",
       about:
         "À mình đẹp trai, học giỏi nhiều năm, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
     },
     BRIDE: {
       fullName: "Phan Ngọc Huyền",
+      avatar: "/images/couple/3.jpeg",
       name: "Huyền",
       about:
         "Cũng xinh gái, đa tài, nhiều kinh nghiệm, nhiều tiền, nhiều xe, nhiều nhà, nhiều đất, nhiều vàng, nhiều đồng tiền",
