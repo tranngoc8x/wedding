@@ -6,6 +6,8 @@ import HeroSection from "@/component/HeroSection";
 import LoveStory from "@/component/LoveStory";
 import WeddingEvent from "@/component/WeddingEvent";
 import WriteLetter from "@/component/WriteLetter";
+import SnowFall from "@/component/SnowFall";
+
 
 async function getData() {
   return {
@@ -61,6 +63,7 @@ export default async function HomePage() {
   const data = await getData();
   return (
     <div className="page-wrapper">
+      <SnowFall />
       {/*<Loading />*/}
       <HeroBanner data={data} />
       <CountDown weddingDate={data.weddingCountdown} />

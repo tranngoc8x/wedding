@@ -1,4 +1,33 @@
+'use client';
+import Modal from 'react-bootstrap/Modal';
+import {useState} from "react";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/captions.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
 export default function () {
+    const [index, setIndex] = useState(-1);
+    const slides = [
+        {
+            src:'/images/portfolio/7.jpg',
+        },
+        {
+            src:'/images/portfolio/8.jpg',
+        }
+        ,{
+            src:'/images/portfolio/9.jpg',
+        },
+        {
+            src:'/images/portfolio/10.jpg',
+        },
+        {
+            src:'/images/portfolio/11.jpg',
+        },
+        {
+            src:'/images/portfolio/12.jpg',
+        }
+      ];
+
     return <section className="wpo-portfolio-section-s2 section-padding" id="gallery">
         <div className="container-fluid">
             <div className="row">
@@ -17,7 +46,7 @@ export default function () {
                     <div className="col-lg-12">
                         <div className="portfolio-grids gallery-container clearfix">
                             <div className="grid">
-                                <div className="img-holder">
+                                <div className="img-holder" onClick={() => setIndex(1)}>
                                     <a href="/images/portfolio/7.jpg" className="fancybox"
                                        data-fancybox-group="gall-1">
                                         <img src="/images/portfolio/7.jpg" alt='' className="img img-responsive"/>
@@ -82,6 +111,15 @@ export default function () {
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                        <div className="col-12">
+                            <Lightbox
+                              styles={{ root: { "--yarl__color_backdrop": "rgba(2, 2, 2, .8)" } }}
+                              index={index}
+                              slides={slides}
+                              open={index >= 0}
+                              close={() => setIndex(-1)}
+                            />
                         </div>
                     </div>
                 </div>
